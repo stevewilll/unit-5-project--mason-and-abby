@@ -1,0 +1,17 @@
+{
+    "9l${KZ_X:42LevQlnPbc": {
+        "data": "hwQUAB4AAAD//d///d///d//AAAAAAAA//3f//3f//3f/wAAAAAAAP/93//93//93/8AAAAAAABmdnd3d3d3d3dmAAAAAAAAZnZ3d3d3d3d3ZwAAAAAAAHZ3d2dmZnZ3d2cAAAAAAAB2d3d2d3dnd3dnAAAAAAAAdnd39v//Z3d3ZwAPAAAAAHZ3d/b/////////DwAAAABmZmb2/////////w8AAAAAZmZm9v////////8PAAAAAHZ3d/b/////////DwAAAAB2d3f2//9nd3dnAA8AAAAAdnd3dnd3Z3d3ZwAAAAAAAHZ3d2dmZnZ3d2cAAAAAAABmdnd3d3d3d3dnAAAAAAAAZnZ3d3d3d3d3ZgAAAAAAAP/93//93//93/8AAAAAAAD//d///d///d//AAAAAAAA//3f//3f//3f/wAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "tank 2"
+    },
+    "image1": {
+        "data": "hwQUAB4AAAD//d///d///d//AAAAAAAA//3f//3f//3f/wAAAAAAAP/93//93//93/8AAAAAAAAiMjMzMzMzMzMiAAAAAAAAIjIzMzMzMzMzIwAAAAAAADIzMyMiIjIzMyMAAAAAAAAyMzMyMzMjMzMjAAAAAAAAMjMz8v//IzMzIwAPAAAAADIzM/L/////////DwAAAAAiIiLy/////////w8AAAAAIiIi8v////////8PAAAAADIzM/L/////////DwAAAAAyMzPy//8jMzMjAA8AAAAAMjMzMjMzIzMzIwAAAAAAADIzMyMiIjIzMyMAAAAAAAAiMjMzMzMzMzMjAAAAAAAAIjIzMzMzMzMzIgAAAAAAAP/93//93//93/8AAAAAAAD//d///d///d//AAAAAAAA//3f//3f//3f/wAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}

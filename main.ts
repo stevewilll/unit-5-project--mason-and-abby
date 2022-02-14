@@ -1,18 +1,51 @@
-let mySprite = sprites.create(img`
-    . . . . . . f f f f . . . . . . 
-    . . . . f f f 2 2 f f f . . . . 
-    . . . f f f 2 2 2 2 f f f . . . 
-    . . f f f e e e e e e f f f . . 
-    . . f f e 2 2 2 2 2 2 e e f . . 
-    . . f e 2 f f f f f f 2 e f . . 
-    . . f f f f e e e e f f f f . . 
-    . f f e f b f 4 4 f b f e f f . 
-    . f e e 4 1 f d d f 1 4 e e f . 
-    . . f e e d d d d d d e e f . . 
-    . . . f e e 4 4 4 4 e e f . . . 
-    . . e 4 f 2 2 2 2 2 2 f 4 e . . 
-    . . 4 d f 2 2 2 2 2 2 f d 4 . . 
-    . . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
-    . . . . . f f f f f f . . . . . 
-    . . . . . f f . . f f . . . . . 
-    `, SpriteKind.Player)
+namespace SpriteKind {
+    export const player2 = SpriteKind.create()
+    export const Projectile2 = SpriteKind.create()
+}
+sprites.onOverlap(SpriteKind.Projectile2, SpriteKind.Player, function (sprite, otherSprite) {
+    loselife()
+    projectile_2.destroy()
+})
+function loselifeP2 () {
+	
+}
+controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
+    projectile_2 = sprites.createProjectileFromSprite(img`
+        2 2 2 
+        2 2 2 
+        2 2 2 
+        2 2 2 
+        2 2 2 
+        `, tank_2, 0, 50)
+})
+function loselife () {
+	
+}
+controller.player1.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
+    projectile = sprites.createProjectileFromSprite(img`
+        2 2 2 
+        2 2 2 
+        2 2 2 
+        2 2 2 
+        2 2 2 
+        `, tank_1, 0, 50)
+})
+sprites.onOverlap(SpriteKind.Projectile, SpriteKind.player2, function (sprite, otherSprite) {
+    loselifeP2()
+    projectile.destroy()
+})
+let projectile: Sprite = null
+let projectile_2: Sprite = null
+let tank_2: Sprite = null
+let tank_1: Sprite = null
+tiles.setCurrentTilemap(tilemap`level1`)
+tank_1 = sprites.create(assets.image`tank 2`, SpriteKind.Player)
+controller.player1.moveSprite(tank_1, 50, 50)
+tank_2 = sprites.create(assets.image`myImage`, SpriteKind.player2)
+controller.player2.moveSprite(tank_2, 50, 50)
+projectile_2.setKind(SpriteKind.Projectile2)
+projectile.setKind(SpriteKind.Projectile)
+let tank1 = statusbars.create(15, 3, StatusBarKind.Health)
+let tank2 = statusbars.create(15, 3, StatusBarKind.Health)
+tank1.attachToSprite(tank_1)
+tank2.attachToSprite(tank_2)
