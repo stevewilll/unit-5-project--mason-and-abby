@@ -69,6 +69,51 @@ fff22222ffff22222fff
 ....................
 ....................
 `;
+            case "image2":
+            case "myImage0":return img`
+8 . . . 8 . 
+8 8 8 8 8 . 
+8 8 5 8 8 . 
+8 . 5 . 8 . 
+2 . . . 2 . 
+5 . . . 5 . 
+`;
+            case "image3":
+            case "myImage1":return img`
+5 2 3 3 3 3 
+. . . 3 3 . 
+. . 5 5 3 . 
+. . . 3 3 . 
+5 2 3 3 3 3 
+. . . . . . 
+`;
+            case "image6":
+            case "myImage4":return img`
+. 5 . . . 5 
+. 2 . . . 2 
+. 3 . 5 . 3 
+. 3 3 5 3 3 
+. 3 3 3 3 3 
+. 3 . . . 3 
+`;
+            case "image5":
+            case "myImage3":return img`
+. . . . . . 
+3 3 3 3 2 5 
+. 3 3 . . . 
+. 3 5 5 . . 
+. 3 3 . . . 
+3 3 3 3 2 5 
+`;
+            case "image4":
+            case "myImage2":return img`
+3 . . . 3 . 
+3 3 3 3 3 . 
+3 3 5 3 3 . 
+3 . 5 . 3 . 
+2 . . . 2 . 
+5 . . . 5 . 
+`;
         }
         return null;
     })

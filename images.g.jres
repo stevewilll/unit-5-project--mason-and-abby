@@ -9,6 +9,31 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage"
     },
+    "image2": {
+        "data": "hwQGAAYAAACIiFIAgAgAAIBVAACACAAAiIhSAAAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage0"
+    },
+    "image3": {
+        "data": "hwQGAAYAAAAFAAUAAgACAAMFAwAzNQMAMzMDAAMAAwA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage1"
+    },
+    "image6": {
+        "data": "hwQGAAYAAAAAAAAAJTMzAAAwAwAAVQMAADADACUzMwA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage4"
+    },
+    "image5": {
+        "data": "hwQGAAYAAAAwADAAMDMzADBTMwAwUDAAIAAgAFAAUAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage3"
+    },
+    "image4": {
+        "data": "hwQGAAYAAAAzM1IAMAMAADBVAAAwAwAAMzNSAAAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage2"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
